@@ -1,0 +1,169 @@
+
+
+
+
+#wrapper{
+    display: flex;
+    flex-flow: column;
+    margin-left: 400px;
+    margin-top : 30px;
+    width: 400px;
+    
+}
+
+
+ 
+
+#resultado {
+   background: #2b3244;
+    height: 120px;    
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-right: #2b3244 35px solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+
+}
+
+/* Segundo fila ------------------------------------------------------------------------------------------------- */
+#segundafila{
+ 
+    flex-direction: row;
+    display: flex;
+    
+}
+
+#segundafila > * {
+    display: flex;
+    background: #dddddd;
+    align-items: center;
+    justify-content: center;
+    flex: 2 33%;
+    height: 70px;
+    border:black 1px solid;
+    font-size: 25px;
+}
+
+#reset {
+    flex: 1 100%;
+    justify-content: first baseline;
+
+}
+
+
+
+#division {
+    background: #f08e33;
+    color: white;
+
+}
+
+
+
+/* Tercera Fila ------------------------------------------------------------------------------------------------ */
+#numeros {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 210px;
+    justify-content: center;  
+
+}
+
+#numeros > * {
+    height: 70px;
+    width: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    border:black 1px solid;
+    font-size: 25px;
+        
+}
+
+
+#multiplicacion {
+    background: #f08e33;
+    color: white;
+
+}
+
+#resta {
+    background: #f08e33;
+    color: white;
+
+}
+
+#suma {
+    background: #f08e33;
+    color: white;
+
+}
+
+
+/* Cuarta fila ------------------------------------------------------------------------------------------------- */
+#footer{
+ 
+    flex-direction: row;
+    display: flex;
+   
+
+}
+#footer > * {
+    display: flex;
+    background: #dddddd;
+    align-items: center;
+    justify-content: center;
+    flex: 2 33%;
+    height: 70px;
+    border:black 1px solid;
+    font-size: 25px;
+   
+}
+
+#cero {
+    flex: 1 100%;
+    justify-content: first baseline;
+    border-bottom-left-radius: 10px;
+
+   
+}
+
+
+
+#igual {
+    background: #f08e33;
+    color: white;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
